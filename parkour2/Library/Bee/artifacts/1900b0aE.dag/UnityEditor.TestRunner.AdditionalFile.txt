@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 E:\Hector's Github\gproject\parkour2
+=======
+E:\Om Github\gproject\parkour2
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
