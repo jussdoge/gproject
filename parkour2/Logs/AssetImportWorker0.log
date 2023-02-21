@@ -11,6 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 E:/angelgithub/gproject/parkour2
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +19,15 @@ Logs/AssetImportWorker0.log
 58879
 Successfully changed project path to: E:/angelgithub/gproject/parkour2
 E:/angelgithub/gproject/parkour2
+=======
+E:/Om Github/gproject/parkour2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52214
+Successfully changed project path to: E:/Om Github/gproject/parkour2
+E:/Om Github/gproject/parkour2
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,6 +57,7 @@ E:/angelgithub/gproject/parkour2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [9932] Host "[IP] 10.70.24.59 [Port] 0 [Flags] 2 [Guid] 3986984087 [EditorId] 3986984087 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [9932] Host "[IP] 10.70.24.59 [Port] 0 [Flags] 2 [Guid] 3986984087 [EditorId] 3986984087 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -56,6 +67,17 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/angelgithub/gproject/parkour2/Assets
+=======
+Player connection [1596] Host "[IP] 10.70.16.18 [Port] 0 [Flags] 2 [Guid] 3088762012 [EditorId] 3088762012 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1596] Host "[IP] 10.70.16.18 [Port] 0 [Flags] 2 [Guid] 3088762012 [EditorId] 3088762012 [Version] 1048832 [Id] WindowsEditor(7,MHCTE-205-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 82.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Om Github/gproject/parkour2/Assets
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,6 +89,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -80,11 +103,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (614ms)
 		BeginReloadAssembly (83ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012302 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (91ms)
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (420ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -99,12 +138,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (124ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
+=======
+		EndReloadAssembly (476ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005286 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\angelgithub\gproject\parkour2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -117,10 +173,25 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1179ms)
 		BeginReloadAssembly (117ms)
+=======
+Registered in 0.005874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Om Github\gproject\parkour2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Om Github\gproject\parkour2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (120ms)
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (19ms)
 		EndReloadAssembly (943ms)
 			LoadAssemblies (102ms)
@@ -136,6 +207,23 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (100ms)
 				ProcessInitializeOnLoadAttributes (378ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
+=======
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +232,21 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3851.
 Memory consumption went from 116.2 MB to 116.1 MB.
 Total: 3.503900 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.968900 ms  DeleteObjects: 0.089800 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3833.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 3.630400 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.217100 ms MarkObjects: 2.975900 ms  DeleteObjects: 0.155400 ms)
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,6 +260,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 25195.371606 seconds.
   path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion.unity
   artifactKey: Guid(12a4d75da2db4d3439c09e07c73a85b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -285,3 +383,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  Time since last request: 1194.361911 seconds.
+  path: Packages/com.unity.services.core/package.json
+  artifactKey: Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/package.json using Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f0425480a02f30b67a0909f2dccc4') in 0.036291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2dbbc1cedfd0107ca1ad38e8220053') in 0.002962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.906065 seconds.
+  path: Packages/com.unity.visualscripting/package.json
+  artifactKey: Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/package.json using Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802ca2141556239ed6a1d27f6470288f') in 0.004109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432250 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002360e272cf591a214daa5cb5c75f8') in 0.004362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.527972 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18898ccc8b096ee8f2e6704cc6568de') in 0.004008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368089 seconds.
+  path: Packages/com.unity.settings-manager/package.json
+  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16afbc5e1c81e578532a459c23bac45') in 0.004271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257946 seconds.
+  path: Packages/com.unity.performance.profile-analyzer/package.json
+  artifactKey: Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.performance.profile-analyzer/package.json using Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a311d5b8c448599d509848ed5332cd71') in 0.004239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.853183 seconds.
+  path: Packages/com.unity.performance.profile-analyzer/CHANGELOG.md
+  artifactKey: Guid(379ad77c12d5940bb8254d679e69d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.performance.profile-analyzer/CHANGELOG.md using Guid(379ad77c12d5940bb8254d679e69d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f886dd1aaceb0d389e42e98784b3a129') in 0.006059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.438894 seconds.
+  path: Packages/com.unity.performance.profile-analyzer/LICENSE.md
+  artifactKey: Guid(1122c571e35634d4aba967c658ce3720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.performance.profile-analyzer/LICENSE.md using Guid(1122c571e35634d4aba967c658ce3720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d636f01f0b4dc7c0cc898f830dbc0a4') in 0.003190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856151 seconds.
+  path: Packages/com.unity.performance.profile-analyzer/README.md
+  artifactKey: Guid(0d920e84785e4472aab610f3f203b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.performance.profile-analyzer/README.md using Guid(0d920e84785e4472aab610f3f203b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd88e638fa3c2c47aceac9db0fbf6813') in 0.003686 seconds 
+>>>>>>> 024397774153cac45555674bcf9eed4178406121
