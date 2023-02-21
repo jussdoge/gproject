@@ -2,6 +2,7 @@
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1676992577742966, "dur": 247083, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1676992577743827, "dur": 53657, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1676992577919134, "dur": 4338, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -9,6 +10,15 @@
 { "pid": 35942, "tid": 1, "ts": 1676992577924090, "dur": 54858, "ph": "X", "name": "JsonToString", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1676992577993764, "dur": 946, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1676992577993103, "dur": 1627, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+=======
+{ "pid": 35942, "tid": 1, "ts": 1676992699350980, "dur": 236718, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699351864, "dur": 55735, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699529662, "dur": 4175, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699533840, "dur": 53847, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699534464, "dur": 42854, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699591491, "dur": 965, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676992699590837, "dur": 1637, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+>>>>>>> a93b91ae1b814393a96af0693b9fe310b0da7bfe
 =======
 { "pid": 35942, "tid": 1, "ts": 1676992582184999, "dur": 277714, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1676992582186141, "dur": 75059, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },

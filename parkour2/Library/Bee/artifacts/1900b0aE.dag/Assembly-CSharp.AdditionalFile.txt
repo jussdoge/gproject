@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 E:\angelgithub\gproject\parkour2
+=======
+E:\Hector's Github\gproject\parkour2
+>>>>>>> a93b91ae1b814393a96af0693b9fe310b0da7bfe
